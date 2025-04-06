@@ -1,0 +1,44 @@
+﻿<Window x:Class="magazyn.View.DodawanieProduktu" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:magazyn.View" xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" Title="DodawanieProduktu" Height="430" Width="500">
+    <Grid Background="#FFF0F8FF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Text="Dodawanie nowego produktu: " VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" />
+        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0">
+            <TextBlock Text="Kod Kreskowy: " Style="{StaticResource DodawanieBlokiTekstowe}" />
+            <TextBlock Text="Marka: " Style="{StaticResource DodawanieBlokiTekstowe}" />
+            <TextBlock Text="Model: " Style="{StaticResource DodawanieBlokiTekstowe}" />
+            <TextBlock Text="System Operacyjny: " Style="{StaticResource DodawanieBlokiTekstowe}" />
+            <TextBlock Text="Ekran (cale): " Style="{StaticResource DodawanieBlokiTekstowe}" />
+            <TextBlock Text="Ilość (sztuk): " Style="{StaticResource DodawanieBlokiTekstowe}" />
+        </StackPanel>
+        <StackPanel Name="wartosciDodawania" Orientation="Vertical" Grid.Row="1" Grid.Column="1">
+            <TextBox Style="{StaticResource DodawanieInputy}" Text="{Binding KodKreskowy}" />
+            <TextBox Style="{StaticResource DodawanieInputy}" Text="{Binding Marka}" />
+            <TextBox Style="{StaticResource DodawanieInputy}" Text="{Binding Model}" />
+            <TextBox Style="{StaticResource DodawanieInputy}" Text="{Binding System}" />
+            <TextBox Style="{StaticResource DodawanieInputy}" Text="{Binding RozmiarEkranu}" />
+            <TextBox Style="{StaticResource DodawanieInputy}" Text="{Binding Ilosc}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+            <Button Height="40" Width="85" Margin="10" Background="#5bf74b" ToolTip="Zapisz i dodaj nowy produkt" Click="ZapiszProdukt">
+                <StackPanel Orientation="Horizontal">
+                    <iconpacks:PackIconMaterial xmlns:iconpacks="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material" iconpacks:PackIconMaterial.Kind="ContentSaveOutline" />
+                    <TextBlock Text="Zapisz" FontWeight="Bold" Padding="5,0,0,0" FontSize="15" />
+                </StackPanel>
+            </Button>
+            <Button Height="40" Width="85" Margin="10" HorizontalAlignment="Right" Background="#f74b4b" ToolTip="Anuluj dodawanie produktu">
+                <StackPanel Orientation="Horizontal">
+                    <PackIconMaterial p11:PackIconMaterial.Kind="CloseOutline" xmlns:p11="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material" xmlns="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material" />
+                    <TextBlock Text="Anuluj" FontWeight="Bold" Padding="5,0,0,0" FontSize="15" />
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>
