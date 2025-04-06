@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--style do headerow tabeli z produktami-->
+    <Style TargetType="GridViewColumnHeader">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="#0082d1"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+
+
+</ResourceDictionary>
