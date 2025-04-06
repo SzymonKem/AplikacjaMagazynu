@@ -31,13 +31,7 @@
                     <TextBlock Text="Usuń" FontWeight="Bold" Padding="5,0,0,0" />
                 </StackPanel>
             </Button>
-            <Button Name="PrzyciskSzybkieDodawanie" Height="30" Width="140" Margin="20,0,20,0" Background="#FFFFFFFF" ToolTip="Włącz/Wyłącz tryb szybkiego dodawania" Click="SzybkieDodawanie_Click">
-                <StackPanel Orientation="Horizontal">
-                    <PackIconMaterial p11:PackIconMaterial.Kind="BarcodeScan" xmlns:p11="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material" xmlns="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material" />
-                    <TextBlock Text="Szybkie dodawanie" FontWeight="Bold" Padding="5,0,0,0" />
-                </StackPanel>
-            </Button>
-            <Button Name="PrzyciskImport" Height="30" Width="75" Margin="20,0,5,0" Background="#FFFFFFFF" ToolTip="Wykonaj import" Click="PrzyciskImport_Click">
+            <Button Name="PrzyciskImport" Height="30" Width="75" Margin="50,0,5,0" Background="#FFFFFFFF" ToolTip="Wykonaj import" Click="PrzyciskImport_Click">
                 <StackPanel Orientation="Horizontal">
                     <PackIconMaterial p11:PackIconMaterial.Kind="FileImportOutline" xmlns:p11="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material" xmlns="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material" />
                     <TextBlock Text="Import" FontWeight="Bold" Padding="5,0,0,0" />

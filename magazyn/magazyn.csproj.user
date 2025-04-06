@@ -5,6 +5,9 @@
     <Compile Update="View\DodawanieProduktu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\EdycjaProduktu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Style\TabelaDanych.xaml">

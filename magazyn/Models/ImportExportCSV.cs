@@ -20,7 +20,7 @@ namespace magazyn.Models
             parser.SetDelimiters(",");
             if (!parser.EndOfData)
             {
-                parser.ReadFields().Skip(1);
+                parser.ReadFields();
             }
             while (!parser.EndOfData)
             {

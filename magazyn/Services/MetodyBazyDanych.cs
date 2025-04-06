@@ -1,4 +1,5 @@
 ﻿using magazyn.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -19,14 +20,23 @@ namespace magazyn.Services
 
         public static void DodajLaptopaDoBazy(Laptop laptop)
         {
-            using (var baza = new LaptopyDbContext())
+            try
             {
-                baza.Laptopy.Add(laptop);
-                int result = baza.SaveChanges();
-                Debug.WriteLine($"Zapisano {result} rekordów.");
-
-            };
-
+                using (var baza = new LaptopyDbContext())
+                {
+                    baza.Laptopy.Add(laptop);
+                    int result = baza.SaveChanges();
+                    Debug.WriteLine($"Zapisano {result} rekordów.");
+                };
+            }
+            catch (DbUpdateException ex)
+            {
+                if (ex.InnerException?.Message.Contains("UNIQUE constraint failed") == true)
+                {
+                    throw new Exception("Laptop z takim kodem kreskowym już istnieje w bazie danych.");
+                }
+                throw;
+            }
         }
 
         public static void UsunLaptopaZBazy(Laptop laptop)

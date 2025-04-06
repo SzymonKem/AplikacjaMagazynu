@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\tomas\Downloads\AplikacjaMagazynu-backend\AplikacjaMagazynu-backend\magazyn\App.xaml
-4-1266974324
+5201094991
 
-9-980599090
+10724535732
 222910269069
-MainWindow.xaml;Style\PoleDodawanieObiektow.xaml;Style\TabelaDanych.xaml;View\DodawanieProduktu.xaml;
+MainWindow.xaml;Style\PoleDodawanieObiektow.xaml;Style\TabelaDanych.xaml;View\DodawanieProduktu.xaml;View\EdycjaProduktu.xaml;
 
 False
 

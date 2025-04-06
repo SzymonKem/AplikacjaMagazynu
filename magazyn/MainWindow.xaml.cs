@@ -28,9 +28,6 @@ namespace magazyn
     {
         internal ObservableCollection<Laptop> produkty = new ObservableCollection<Laptop>();
 
-        private bool czyKliknieto = false;
-
-
         public MainWindow()
         {
             InitializeComponent();
@@ -38,21 +35,6 @@ namespace magazyn
             produkty = MetodyBazyDanych.PobierzLaptopyZBazy();
             Debug.WriteLine(produkty.ToString());
             ListaProduktow.ItemsSource = produkty;
-        }
-
-        private void SzybkieDodawanie_Click(object sender, RoutedEventArgs e)
-        {
-            czyKliknieto = !czyKliknieto;
-            if (czyKliknieto)
-            {
-                PrzyciskSzybkieDodawanie.Background = Brushes.Green;
-                PrzyciskSzybkieDodawanie.Foreground = Brushes.White;
-            }
-            else
-            {
-                PrzyciskSzybkieDodawanie.Background = Brushes.White;
-                PrzyciskSzybkieDodawanie.Foreground = Brushes.Black;
-            }
         }
 
         private void FiltrowanieKodem_GotFocus(object sender, RoutedEventArgs e)
@@ -158,7 +140,7 @@ namespace magazyn
 
         private void EdytujLaptop()
         {
-            DodawanieProduktu edycja = new DodawanieProduktu(this);
+            EdycjaProduktu edycja = new EdycjaProduktu(this);
             edycja.ShowDialog();
         }
 
@@ -277,7 +259,7 @@ namespace magazyn
                     break;
 
                 case "Sortowanie ekranem":
-                    widok.SortDescriptions.Add(new SortDescription("Ekran", ListSortDirection.Ascending));
+                    widok.SortDescriptions.Add(new SortDescription("RozmiarEkranu", ListSortDirection.Ascending));
                     break;
 
                 case "Sortowanie ilością":

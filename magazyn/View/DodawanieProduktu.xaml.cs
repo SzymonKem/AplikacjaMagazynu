@@ -79,5 +79,11 @@ namespace magazyn.View
             this.DialogResult = true;
         }
 
+        private void AnulujDodawanie(object sender, RoutedEventArgs e)
+        {
+            this.DialogResult = false;
+            this.Close();
+        }
+
     }
 }
