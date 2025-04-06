@@ -69,6 +69,10 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.g.i.cs",
@@ -76,14 +80,10 @@
               "RelativeDocumentMoniker": "magazyn\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
               "RelativeToolTip": "magazyn\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAQwFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T18:24:22.296Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -165,8 +165,8 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\MainWindow.xaml",
               "RelativeDocumentMoniker": "magazyn\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\MainWindow.xaml*",
-              "RelativeToolTip": "magazyn\\MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\MainWindow.xaml",
+              "RelativeToolTip": "magazyn\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-04T06:17:24.684Z",
               "EditorCaption": ""
@@ -203,8 +203,8 @@
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "magazyn\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "magazyn\\MainWindow.xaml.cs*",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\MainWindow.xaml.cs",
+              "RelativeToolTip": "magazyn\\MainWindow.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAqwBwAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T06:17:19.126Z",

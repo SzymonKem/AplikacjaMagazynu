@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{D2789DE5-0579-4355-ADFA-C97D12E349D2}|magazyn\\magazyn.csproj|solutionrelative:magazyn\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2789DE5-0579-4355-ADFA-C97D12E349D2}|magazyn\\magazyn.csproj|c:\\users\\tomas\\downloads\\aplikacjamagazynu-backend\\aplikacjamagazynu-backend\\magazyn\\obj\\debug\\net8.0-windows\\mainwindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2789DE5-0579-4355-ADFA-C97D12E349D2}|magazyn\\magazyn.csproj|solutionrelative:magazyn\\obj\\debug\\net8.0-windows\\mainwindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2789DE5-0579-4355-ADFA-C97D12E349D2}|magazyn\\magazyn.csproj|c:\\users\\tomas\\downloads\\aplikacjamagazynu-backend\\aplikacjamagazynu-backend\\magazyn\\services\\metodybazydanych.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2789DE5-0579-4355-ADFA-C97D12E349D2}|magazyn\\magazyn.csproj|solutionrelative:magazyn\\services\\metodybazydanych.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,6 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D2789DE5-0579-4355-ADFA-C97D12E349D2}|magazyn\\magazyn.csproj|c:\\users\\tomas\\downloads\\aplikacjamagazynu-backend\\aplikacjamagazynu-backend\\magazyn\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D2789DE5-0579-4355-ADFA-C97D12E349D2}|magazyn\\magazyn.csproj|solutionrelative:magazyn\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:magazyn\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "MainWindow.g.i.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
               "RelativeDocumentMoniker": "magazyn\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
@@ -82,12 +82,11 @@
               "RelativeToolTip": "magazyn\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAQwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T18:24:22.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T18:24:22.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "DodawanieProduktu.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\View\\DodawanieProduktu.xaml.cs",
               "RelativeDocumentMoniker": "magazyn\\View\\DodawanieProduktu.xaml.cs",
@@ -95,12 +94,11 @@
               "RelativeToolTip": "magazyn\\View\\DodawanieProduktu.xaml.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAawFMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T18:00:42.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T18:00:42.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "EdycjaProduktu.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\View\\EdycjaProduktu.xaml.cs",
               "RelativeDocumentMoniker": "magazyn\\View\\EdycjaProduktu.xaml.cs",
@@ -108,56 +106,51 @@
               "RelativeToolTip": "magazyn\\View\\EdycjaProduktu.xaml.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAQwFEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T17:58:13.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T17:58:13.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "EdycjaProduktu.xaml",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\View\\EdycjaProduktu.xaml",
               "RelativeDocumentMoniker": "magazyn\\View\\EdycjaProduktu.xaml",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\View\\EdycjaProduktu.xaml",
               "RelativeToolTip": "magazyn\\View\\EdycjaProduktu.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-06T17:56:25.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T17:56:25.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "DodawanieProduktu.xaml",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\View\\DodawanieProduktu.xaml",
               "RelativeDocumentMoniker": "magazyn\\View\\DodawanieProduktu.xaml",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\View\\DodawanieProduktu.xaml",
               "RelativeToolTip": "magazyn\\View\\DodawanieProduktu.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-05T10:11:23.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T10:11:23.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\App.xaml",
               "RelativeDocumentMoniker": "magazyn\\App.xaml",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\App.xaml",
               "RelativeToolTip": "magazyn\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-05T09:05:41.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T09:05:41.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "TabelaDanych.xaml",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\Style\\TabelaDanych.xaml",
               "RelativeDocumentMoniker": "magazyn\\Style\\TabelaDanych.xaml",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\Style\\TabelaDanych.xaml",
               "RelativeToolTip": "magazyn\\Style\\TabelaDanych.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-05T09:03:43.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T09:03:43.266Z"
             },
             {
               "$type": "Document",
@@ -168,12 +161,11 @@
               "ToolTip": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\MainWindow.xaml",
               "RelativeToolTip": "magazyn\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T06:17:24.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T06:17:24.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MetodyBazyDanych.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\Services\\MetodyBazyDanych.cs",
               "RelativeDocumentMoniker": "magazyn\\Services\\MetodyBazyDanych.cs",
@@ -181,12 +173,11 @@
               "RelativeToolTip": "magazyn\\Services\\MetodyBazyDanych.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T14:24:55.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T14:24:55.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "LaptopyDbContext.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\Models\\LaptopyDbContext.cs",
               "RelativeDocumentMoniker": "magazyn\\Models\\LaptopyDbContext.cs",
@@ -194,8 +185,7 @@
               "RelativeToolTip": "magazyn\\Models\\LaptopyDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:01:09.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T16:01:09.469Z"
             },
             {
               "$type": "Document",
@@ -212,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Laptop.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\Models\\Laptop.cs",
               "RelativeDocumentMoniker": "magazyn\\Models\\Laptop.cs",
@@ -220,12 +210,11 @@
               "RelativeToolTip": "magazyn\\Models\\Laptop.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T13:15:42.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T13:15:42.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ImportExportCSV.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\AplikacjaMagazynu-backend\\AplikacjaMagazynu-backend\\magazyn\\Models\\ImportExportCSV.cs",
               "RelativeDocumentMoniker": "magazyn\\Models\\ImportExportCSV.cs",
@@ -233,8 +222,7 @@
               "RelativeToolTip": "magazyn\\Models\\ImportExportCSV.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T13:45:04.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T13:45:04.371Z"
             }
           ]
         }
